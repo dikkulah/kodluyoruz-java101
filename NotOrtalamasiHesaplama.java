@@ -6,17 +6,17 @@ public class NotOrtalamasiHesaplama {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Matematik Notunuz :");
+        System.out.print("Matematik Notunuz :");
         mat=scanner.nextInt();
-        System.out.println("Fizik Notunuz :");
+        System.out.print("Fizik Notunuz :");
         fizik=scanner.nextInt();
-        System.out.println("Kimya Notunuz :");
+        System.out.print("Kimya Notunuz :");
         kimya=scanner.nextInt();
-        System.out.println("Türkçe Notunuz :");
+        System.out.print("Türkçe Notunuz :");
         turkce=scanner.nextInt();
-        System.out.println("Tarih Notunuz :");
+        System.out.print("Tarih Notunuz :");
         tarih=scanner.nextInt();
-        System.out.println("Müzik Notunuz :");
+        System.out.print("Müzik Notunuz :");
         muzik=scanner.nextInt();
 
         int ortalama= (mat+fizik+kimya+turkce+tarih+muzik)/6;
