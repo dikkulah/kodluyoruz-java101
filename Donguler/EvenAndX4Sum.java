@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EvenAndX4Sum {
     public static void main(String[] args) {
-        int adet = 0, n, sum = 0;
+        int count = 0, n, sum = 0;
         Scanner scanner = new Scanner(System.in);
 
 
@@ -13,9 +13,9 @@ public class EvenAndX4Sum {
             n = scanner.nextInt();
             if (n % 4 == 0) {
                 sum += n;
-                adet++;
+                count++;
             }
         } while (n % 2 == 0);
-        System.out.println(sum / adet);
+        System.out.println(sum / count);
     }
 }
