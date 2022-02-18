@@ -11,7 +11,7 @@ public class SumOfDigits {
         int basValue;
         int result = 0;
 
-        while(number!=0) {
+        while (number != 0) {
             basValue = number % 10;
             result += basValue;
             number /= 10;

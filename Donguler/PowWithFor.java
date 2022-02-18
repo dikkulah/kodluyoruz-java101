@@ -16,6 +16,6 @@ public class PowWithFor {
         for (int i = 1; i <= pow; i++) {
             result *= number;
         }
-        System.out.println("Sonuç: "+result);
+        System.out.println("Sonuç: " + result);
     }
 }
