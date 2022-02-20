@@ -27,7 +27,7 @@ public class MinMax {
             } while (count > 0);
             System.out.println("En küçük sayı: " + min);
             System.out.println("En büyük sayı: " + max);
-        }else System.out.println("Girilecek sayı adedi 1'den büyük olmalı, lütfen tekrar deneyiniz.");;
+        }else System.out.println("Girilecek sayı adedi 1'den büyük olmalı, lütfen tekrar deneyiniz.");
 
 
     }
