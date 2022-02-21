@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PrimeNumberRecursive {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Taban değerini giriniz: ");
+        System.out.print("Sayı giriniz: ");
         int number = scanner.nextInt();
         if (isPrime(number,2)) System.out.println(number+" asal bir sayıdır.");
         else System.out.println(number+" asal bir sayı değildir.");
