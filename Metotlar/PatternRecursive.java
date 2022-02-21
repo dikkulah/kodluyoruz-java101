@@ -2,7 +2,7 @@ package Metotlar;
 
 import java.util.Scanner;
 
-public class RuleTask {
+public class PatternRecursive {
     static boolean state = false;
     static void pattern(int number, int temp) {
 
