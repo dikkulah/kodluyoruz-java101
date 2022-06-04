@@ -19,7 +19,7 @@ public class ArraySort {
         Arrays.sort(arr);
         System.out.print("Sıralama: ");
         for (int i : arr) {
-            System.out.print(i + " ");
+            System.out.print(i + " ") ;
         }
     }
 }
