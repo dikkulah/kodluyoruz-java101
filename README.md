@@ -1,3 +1,2 @@
-# kodluyoruz-java101
-Kodluyoruz Java101 dersi içerik ve ödevleri
-https://app.patika.dev/dikkulah/edit/projects
+# Başlangıç Seviye Java ile Backend Web Development Patikası - Java101
+https://app.patika.dev/dikkulah
